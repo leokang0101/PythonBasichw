@@ -10,6 +10,8 @@ print(s[5])
 print(s[-5])
 print(s[10:12])
 print(s[13:])
-s = 오늘의 평균 기온은 {}도 입니다
-print(s.format(17, 18, 19, 20))
-
+s = "오늘의 평균 기온은 {}도 입니다"
+print(s.format(17))
+print(s.format(18))
+print(s.format(19))
+print(s.format(20))
