@@ -1,3 +1,5 @@
+ab
+
 x=10
 y=8
 print(x>y) #True
@@ -19,17 +21,19 @@ print((3 == 3) and (4 != 3))True
 print('코딩')
 
 
-??
+1
+3
+5
 
-
-user=input(10)
-if(user):
+user=input("숫자 : ")
+if int(user) % 2 ==0:
    print("짝수")
 else:
    print("홀수")
    
-   
+  
 num1 = input("input number1: ")
 num2 = input("input number2: ")
 num3 = input("input number3: ")
-print("num1")
+print("num3")
+
