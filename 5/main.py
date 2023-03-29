@@ -8,15 +8,16 @@ elif 30 <= x and 40> x:
 else: 
   print("10대 미만, 40대 이상입니다.")
  
-??
+a b d g
 
 while True:
 
 count = int(input('반복할 횟수를 입력하세요: '))
-i = count
-while i<1:
+i = 0
+while i<count:
   i=i+1
-    print('Hello, world!)
+  print('Hello, world!', i)
+
 
 ??
           
