@@ -19,6 +19,15 @@ while i<count:
   print('Hello, world!', i)
 
 
-??
+i = 0
+result_even = 0
+ 
+while i < 100:
+    i = i + 1
+    if i % 2 == 1:
+        result_even = result_even + i
+
+print(result_even)
+
           
 ??
