@@ -29,5 +29,20 @@ while i < 100:
 
 print(result_even)
 
-          
-??
+print('-' * 40)
+print('cm\tmm\tm\tinch')
+print('-' * 40)
+
+cm = 10
+cm=cm+10
+while cm=90:
+    mm = cm*10
+    m =  mm/1000
+    inch = mm=39.37 
+    
+    print(f'{cm}\t{mm}\t{m}\t{inch}')
+            
+    cm += 10
+    
+print('-' * 40)
+
