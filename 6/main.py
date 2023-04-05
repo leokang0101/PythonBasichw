@@ -5,17 +5,17 @@
 10, 8, 6, 4, 2
 number = int(input('숫자를 입력하세요.'))
 
-for i in range(1,number):
-    print(??)
+for i in range(number):
+    print("I  love Python")
     
-for x in range(2002, 20501, 4):
+for x in range(2002, 2051, 4):
     print(x)
     
 while True:
     score = int(input('점수 : '))
     
     if score == -1:
-        print("불합격")
+        break
     if score>=60 :
         print('합격')
     else :
