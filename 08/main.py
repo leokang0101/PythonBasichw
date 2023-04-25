@@ -2,8 +2,8 @@ import random
 count = 0 # 이긴 횟수
 
 while True:
-  print('')
-  player = input()
+  print('@@@')
+  player = input(@@@)
   if player == '그만':
         @@@
        
@@ -18,17 +18,17 @@ while True:
   print('사용자 ( {} vs {} ) 컴퓨터'.format(player, com))
 
   if player == '가위' or player == '보' or player == '바위' :
-        if (com == '가위' and player == '보') or @@@ or @@@ :
+        if (com == '가위' and player == '보') or (com=='바위' and player == '가위') or (com=='바위' and player=='보') :
             print('컴퓨터 승')
-        elif @@@ or @@@ or @@@ :
+        elif (com=='가위' and player== '바위') or (com=='바위' and player=='보') or (com=='보' and player=='바위') :
             print('플레이어 승')
             count += 1  # count = count + 1 코드와 동일
-            if @@@ :
+            if '그만' :
                 print("player 3승으로 종료합니다.")
                 break
         else:
             print('비겼습니다.')                  
-  :
+  @@@:
       print("잘못 입력했습니다.")
       continue
   
