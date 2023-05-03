@@ -12,7 +12,7 @@ while True:
      com = '가위'
   elif com == 2:
      com = '바위'
-  elif com == '보' :
+  elif com == 3 :
      com = '보'
 
   print('사용자 ( {} vs {} ) 컴퓨터'.format(player, com))
