@@ -20,7 +20,7 @@ while True:
   if player == '가위' or player == '보' or player == '바위' :
         if (com == '가위' and player == '보') or (com=='바위' and player == '가위') or (com=='보' and player=='바위') :
             print('컴퓨터 승')
-        elif (com=='가위' and player== '바위') or (com=='바위' and player=='보') or (com=='보' and player=='바위') :
+        elif (com=='가위' and player== '바위') or (com=='바위' and player=='보') or (com=='보' and player=='가위') :
             print('플레이어 승')
             count += 1  # count = count + 1 코드와 동일
             if count==3 :
