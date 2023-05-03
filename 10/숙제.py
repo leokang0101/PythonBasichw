@@ -19,14 +19,14 @@ total = 0
 
 scores = [20, 55, 67, 82, 45, 33, 90, 87, 100, 25]
 for score in scores:
-    if scores=<50:
-        ??
+    if scores>=50:
+        total=total+score
 print(total) # 481
           
           
 price_list = [1000, 2300, 9900, 15000]
 for price in price_list:
-    sale_price =  price_list%10
+    sale_price = price+(price*0.1)
     print("{}원의 결제 금액은 {}원 입니다.".format(price,sale_price))
 
 
